@@ -111,14 +111,21 @@ body {
     padding-bottom: 20px;
     display: flex;
     transition: 0.8s;
+    transform: translateY(70px);
 }
 
 .adv-title span {
     color: var(--white);
 }
 
-.second .adv-title, .four .adv-title{
-    align-self: flex-end;
+.second .adv-title {
+    align-self:flex-end;
+    transform: translateY(120px);
+} 
+
+.four .adv-title {
+    align-self:flex-end;
+    transform: translateY(60px);
 } 
 
 .adv-text {
@@ -230,7 +237,7 @@ body {
 }
 
 .five {
-    bottom: -80px;
+    bottom: -100px;
     left: calc(50% - 150px);
 }
 
